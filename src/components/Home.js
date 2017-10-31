@@ -7,7 +7,7 @@ const Home = props => {
     return (
         <div>
         <Navbar/>
-        <Particles params={{
+        <Particles className='particles-bg' params={{
             particles: {
                 line_linked: {
                     enable: false   
@@ -19,7 +19,7 @@ const Home = props => {
                     value: '#ff9900'
                 },
                 size: {
-                    value: 3
+                    value: 5
                 }
             },
             interactivity: {
