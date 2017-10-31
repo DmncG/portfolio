@@ -1,5 +1,16 @@
 /*
 ***************
+BODY
+***************
+*/
+
+body {
+    background: white
+}
+
+
+/*
+***************
 LOADING SPINNER
 ***************
 */
@@ -97,21 +108,14 @@ svg.spinner {
     }
 }
 
-
-
-/* Not important */
-body {
-    padding: 60px 0;
-    margin: 0;
-    
-    svg {
-        display: block;
-        margin: 0 auto;
-    }
+svg {
+    display: block;
+    margin: 0 auto;
 }
 
 /*
 ***************
-
+particles
 ***************
 */
+

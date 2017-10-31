@@ -1,10 +1,19 @@
-import '../public/css/index.scss';
+import '../public/css/index.scss'
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Routes from './routes'
+
 
 ReactDOM.render(
   <Routes/>,
   document.getElementById('app')
 );
+
+
+
+
+
+
+
+
