@@ -1,5 +1,23 @@
 /*
 ***************
+BODY
+***************
+*/
+
+html, body{
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    height: 100%;
+  }
+  body{
+    min-height: 100%;
+  }
+
+
+/*
+***************
 LOADING SPINNER
 ***************
 */
@@ -97,21 +115,44 @@ svg.spinner {
     }
 }
 
-
-
-/* Not important */
-body {
-    padding: 60px 0;
-    margin: 0;
-    
-    svg {
-        display: block;
-        margin: 0 auto;
-    }
+svg {
+    display: block;
+    margin: 0 auto;
 }
 
 /*
 ***************
-
+HOME COMPONENT
 ***************
 */
+
+.home-div{
+
+}
+
+.intro{
+   text-align: center;
+   z-index: 1;
+   position: relative;
+   top: -15em;
+   font-family: 'Raleway', sans-serif;
+   font-size: 2em;
+}
+
+/*
+*************************
+RESPONSIVE HOME COMPONENT
+*************************
+*/
+
+
+
+
+/*
+***************
+PARTICLES
+***************
+*/
+
+
+

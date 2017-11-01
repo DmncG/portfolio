@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link, NavLink} from 'react-router-dom'
-import {Home, Works, About} from '../components'
+import {Home, Works, About} from '../components'    
 
 const Navbar = props => {
     return (
