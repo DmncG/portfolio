@@ -5,7 +5,7 @@ import Particles from 'react-particles-js'
 
 const Home = props => {
     return (
-        <div>
+        <div className="Home-div">
         <Navbar/>
         <Particles className='particles-bg' params={{
             particles: {
@@ -13,26 +13,33 @@ const Home = props => {
                     enable: false   
                 },
                 number: {
-                    value: 80
+                    value: 20
                 },
                 color: {
                     value: '#ff9900'
                 },
                 size: {
-                    value: 5
+                    value: 10
                 }
             },
             interactivity: {
                 events: {
                     onhover: {
                         enable: true,
-                        mode: 'repulse'
+                        mode: 'bubble'
                     }
                 }
             }
-        }} style={{height: '100vh'}}/>
-        <h1>Home. ¯\_(ツ)_/¯ </h1>
-        <h2 className="intro">Hi. My name is Dominic and I am a Fullstack Software Engineer.</h2>
+        }} style={{height: "100vh"}}/>
+        <div className="intro">
+        
+        <p>
+            <strong>Hi! My name is Dominic.</strong>
+        </p>
+        <p>
+            <strong> I'm a Fullstack Software Developer.</strong>
+        </p>
+        </div>
         </div>
       )  
 } 

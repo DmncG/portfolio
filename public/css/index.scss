@@ -4,9 +4,16 @@ BODY
 ***************
 */
 
-body {
-    background: white
-}
+html, body{
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    height: 100%;
+  }
+  body{
+    min-height: 100%;
+  }
 
 
 /*
@@ -115,11 +122,37 @@ svg {
 
 /*
 ***************
-particles
+HOME COMPONENT
 ***************
 */
 
-.particles-bg{
-    display: inline
+.home-div{
+
 }
+
+.intro{
+   text-align: center;
+   z-index: 1;
+   position: relative;
+   top: -15em;
+   font-family: 'Raleway', sans-serif;
+   font-size: 2em;
+}
+
+/*
+*************************
+RESPONSIVE HOME COMPONENT
+*************************
+*/
+
+
+
+
+/*
+***************
+PARTICLES
+***************
+*/
+
+
 
