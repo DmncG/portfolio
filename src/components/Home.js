@@ -13,14 +13,16 @@ const Home = props => {
                     enable: false   
                 },
                 number: {
-                    value: 20
+                    value: 30,
+                    
                 },
                 color: {
                     value: '#ff9900'
                 },
                 size: {
                     value: 10
-                }
+                },
+                
             },
             interactivity: {
                 events: {
@@ -30,13 +32,13 @@ const Home = props => {
                     }
                 }
             }
-        }} style={{height: "100vh"}}/>
+        }} style={{"minHeight": "100%", width: "100%", position: "absolute"}} canvasClassName="particle-canvas"/> 
         <div className="intro">
         
-        <p>
+        <p id="home-p1">
             <strong>Hi! My name is Dominic.</strong>
         </p>
-        <p>
+        <p id="home-p2">
             <strong> I'm a Fullstack Software Developer.</strong>
         </p>
         </div>

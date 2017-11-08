@@ -13,7 +13,7 @@ const About = props => {
                     enable: false   
                 },
                 number: {
-                    value: 40
+                    value: 30
                 },
                 color: {
                     value: '#e62e00'
@@ -30,8 +30,25 @@ const About = props => {
                     }
                 }
             }
-        }} style={{height: "100vh"}}/>
-        <h1>About Me. ¯\_(ツ)_/¯ </h1>
+        }} style={{"minHeight": "100%", width: "100%", position: "absolute", zIndex: -1}} canvasClassName="particle-canvas"/>
+        <p className="about-header">
+            About Me 
+        </p>
+        <img className="about-profile" src="../../assets/images/about_profile.jpg"/>
+        <p className="about-paragraph">
+          <strong>
+              I am a recent graduate of Fullstack Academy's<br></br>
+              Software Engineering Immersive where I learned<br></br> 
+              how to build various applications.
+          </strong>  
+        </p>
+        <p className="about-paragraph">
+          <strong>
+              I am drawn toward good storytelling<br></br>
+              and captivating visuals. 
+          </strong>  
+        </p>
+        
         </div>
       )  
 } 
