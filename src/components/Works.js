@@ -4,6 +4,8 @@ import Navbar from './Navbar'
 import Particles from 'react-particles-js'
 
 const Works = props => {
+    const srcs = ['FOKq4sL-GlE', 'nRGFzdYnl_c']
+
     return (
         <div>
         <Navbar/>
@@ -13,7 +15,7 @@ const Works = props => {
                     enable: false   
                 },
                 number: {
-                    value: 40
+                    value: 30
                 },
                 color: {
                     value: '#00ace6'
@@ -30,8 +32,19 @@ const Works = props => {
                     }
                 }
             }
-        }} style={{height: "100vh"}}/>
-        <h1> My Works. ¯\_(ツ)_/¯ </h1>
+        }} style={{"minHeight": "100%", width: "100%", position: "absolute", zIndex: -1}}/>
+        {srcs.length && 
+        srcs.map((source, i) => {
+            return (
+                <iframe key={i} id="ytplayer" type="text/html" width="320" height="180"
+                src={`https://www.youtube.com/embed/${source}?autoplay=1&origin=http://example.com`}
+                frameBorder="0"></iframe>
+            )
+        })
+        
+        
+        }
+        
         </div>
       )  
 } 
