@@ -11,16 +11,16 @@ const About = props => {
       <Particles className='particles-bg' params={{
         particles: {
           line_linked: {
-            enable: false
+            enable: true
           },
           number: {
-            value: 30
+            value: 5
           },
           color: {
-            value: '#e62e00'
+            value: '#000000'
           },
           size: {
-            value: 10
+            value: 7.5
           }
         },
         interactivity: {
@@ -34,10 +34,10 @@ const About = props => {
       }} style={{'minHeight': '100%', width: '100%', position: 'absolute', zIndex: -1}} canvasClassName="particle-canvas"/>
       <Grid>
         <Row>
-          <Col xs={12} md={7} lg={7}>
+          <Col xs={12} md={7} lg={7} className="about-col-profile">
             <img className="about-profile" src="../../assets/images/about_profile.jpg"/>
           </Col>
-          <Col xs={12} md={5} lg={5}>
+          <Col xs={12} md={5} lg={5} className="about-col-content">
             <div id="about-content">
               <p className="about-header">
             About Me

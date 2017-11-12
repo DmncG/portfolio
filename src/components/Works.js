@@ -15,7 +15,7 @@ const Works = props => {
             enable: false
           },
           number: {
-            value: 30
+            value: 8
           },
           color: {
             value: '#00ace6'
@@ -37,7 +37,7 @@ const Works = props => {
         srcs.map((source, i) => {
           return (
             <iframe key={i} id="ytplayer" type="text/html" width="320" height="180"
-              src={`https://www.youtube.com/embed/${source}?autoplay=1&origin=http://example.com`}
+              src={`https://www.youtube.com/embed/${source}?autoplay=0&origin=http://example.com`}
               frameBorder="0"></iframe>
           )
         })
