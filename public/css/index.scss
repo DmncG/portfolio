@@ -143,7 +143,7 @@ HOME COMPONENT
    font-family: 'Raleway', sans-serif;
    font-size: 2em;
    padding-top: .5em;
-   margin: 5em 0 0 0;
+   margin: 8em 0 0 0;
 }
 
 #home-p1{
@@ -155,6 +155,22 @@ padding: 0 auto 0 auto;
 margin-top: .5em;
 }
 
+.home-linkedin {
+    width: 45px;
+    height: auto;
+    padding: .5em;
+    margin-top: 19em;
+    
+}
+
+.home-github {
+    width: 45px;
+    height: auto;
+    padding: .3em;
+    margin-top: 19em;
+    
+}
+
 /*
 *************************
 RESPONSIVE HOME COMPONENT
@@ -164,6 +180,33 @@ RESPONSIVE HOME COMPONENT
 @media only screen and (max-width: 768px) {
     .intro{
         font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .home-github{
+        width: 40px;
+        margin-top: 23em;
+        
+    }
+
+    .home-linkedin{
+        width: 40px;
+        margin-top: 23em;
+        
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .home-github{
+        width: 40px;
+        margin-top: 16em;
+        
+    }
+
+    .home-linkedin{
+        width: 40px;
+        margin-top: 16em;
     }
 }
 
@@ -200,10 +243,12 @@ ABOUT COMPONENT
     width: 550px;
     height: auto;
     margin-top: 8em;
-    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.40);
+    -moz-box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.40);
+    box-shadow: 6px 4px 5px 0px rgba(0,0,0,0.40);
 }
+
+
 
 /*
 *************************
@@ -278,5 +323,13 @@ RESPONSIVE ABOUT COMPONENT
         font-size: 1.8em;
     }
 }
+
+
+/*
+***************
+WORKS COMPONENT
+***************
+*/
+
 
 
