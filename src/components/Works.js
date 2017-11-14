@@ -49,6 +49,8 @@ const Works = props => {
               <p className="works-header">
                 Works
               </p>
+              <div className="works-header-dash">
+              </div>
             </Col>
             <Col xs={12} md={10} lg={10} className="works-col-content">
               <div className="works-saffire">
