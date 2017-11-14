@@ -31,7 +31,7 @@ const About = props => {
             }
           }
         }
-      }} style={{'minHeight': '100%', width: '100%', position: 'absolute', zIndex: -1}} canvasClassName="particle-canvas"/>
+      }} style={{'minHeight': '100%', 'height': 'auto', width: '100%', position: 'absolute', zIndex: -1}} canvasClassName="particle-canvas"/>
       <Grid>
         <Row>
           <Col xs={12} md={7} lg={7} className="about-col-profile">

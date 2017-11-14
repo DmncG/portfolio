@@ -331,5 +331,106 @@ WORKS COMPONENT
 ***************
 */
 
+.works-col-content{
+    z-index: 1;
+}
 
+
+.works-header{
+    font-size: 9.5em;
+    font-family: 'Lato', sans-serif;
+    display: block;
+}
+
+.works-saffire-screenshot{
+    width: 750px;
+    height: auto;
+    margin-left: 17em;
+    margin-top: 3em;
+    z-index: 1;
+    
+}
+
+.works-saffire-box{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(228, 228, 228);
+    opacity: 1;
+    -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    z-index: 1;
+    margin-top: 20em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.works-saffire-header{
+    font-size: 6.5em;
+    font-family: 'Lato', sans-serif;
+    margin-left: -.7em;
+    margin-top: -1.6em;
+    
+
+}
+
+.works-meeseeks-box{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(255, 183, 83);
+    opacity: 1;
+    -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    z-index: 0;
+    margin-top: 20em;
+    margin-left: 4em;
+    margin-right: 4em;
+
+}
+
+.works-meeseeks-gif{
+    margin-top: 3em;
+    margin-left: 27.6em;
+    z-index: 1;
+}
+
+.works-meeseeks-header{
+    font-size: 6.5em;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+    margin-left: -.7em;
+    margin-top: -1.6em;
+
+}
+
+.works-threejs-logo{
+    font-family: 'Inconsolata', monospace;
+    font-size: 13em;
+    color: #555;
+    margin-left: 1.5em;
+    z-index: 1;
+}
+
+.works-threejs-header{
+    font-size: 6.5em;
+    font-family: 'Lato', sans-serif;
+    z-index: 1;
+    margin-left: -.7em;
+    margin-top: -1.6em;
+}
+
+.works-threejs-box{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(228, 228, 228);
+    opacity: 1;
+    -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    z-index: 1;
+    margin-top: 15em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
 
