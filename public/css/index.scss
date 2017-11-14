@@ -168,6 +168,7 @@ margin-top: .5em;
     height: auto;
     padding: .3em;
     margin-top: 19em;
+    margin-right: 1em;
     
 }
 
@@ -329,6 +330,191 @@ RESPONSIVE ABOUT COMPONENT
 ***************
 WORKS COMPONENT
 ***************
+*/
+
+.works-col-content{
+    z-index: 1;
+}
+
+
+#works-header-anim{
+
+    .works-header{
+        font-size: 9.5em;
+        font-family: 'Lato', sans-serif;
+        display: block;
+        transform: translateX(150px);
+        opacity: 0;
+        transition: all 1.5s ease-out
+    }
+
+    &.active .works-header{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+
+
+.works-header-dash{
+    width: 5.5em;
+    height: 1em;
+    background-color: rgb(255, 183, 83);
+    margin-left: 2em;
+    margin-top: -.5em;
+}
+
+.works-saffire{
+
+    .works-saffire-screenshot{
+        width: 750px;
+        height: auto;
+        margin-left: 20em;
+        margin-top: 3em;
+        z-index: 1;
+        transition: all 1.5s ease-out;
+        -webkit-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
+        -moz-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
+        box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
+    }
+
+    .works-saffire-box{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(228, 228, 228);
+    opacity: 1;
+    -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+    z-index: 1;
+    margin-top: 20em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.works-saffire-header{
+    font-size: 6.5em;
+    font-family: 'Lato', sans-serif;
+    margin-left: -1.4em;
+    margin-top: -1.6em;
+    transition: all 1.5s ease-out;
+
+}
+
+    &:hover .works-saffire-screenshot {
+        margin-left: 17em;
+    }
+
+    &:hover .works-saffire-header {
+        margin-left: -.7em;
+    }
+
+
+}
+
+
+
+    
+    
+
+.works-meeseeks{
+
+    .works-meeseeks-box{
+        width: 800px;
+        height: 600px;
+        background-color: rgb(255, 183, 83);
+        opacity: 1;
+        -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        z-index: 0;
+        margin-top: 20em;
+        margin-left: 4em;
+        margin-right: 4em;
+    
+    }
+    
+    .works-meeseeks-gif{
+        margin-top: 3em;
+        margin-left: 30.6em;
+        z-index: 1;
+        -webkit-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
+        -moz-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
+        box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
+        transition: all 1.5s ease-out;
+    }
+    
+    .works-meeseeks-header{
+        font-size: 6.5em;
+        font-family: 'Lato', sans-serif;
+        z-index: 1;
+        margin-left: -1.4em;
+        margin-top: -1.6em;
+        transition: all 1.5s ease-out;
+    
+    }
+
+    &:hover .works-meeseeks-gif {
+        margin-left: 27.6em;
+    }
+
+    &:hover .works-meeseeks-header {
+        margin-left: -.7em;
+    }
+
+}
+
+
+
+.works-threejs{
+
+    .works-threejs-logo{
+        font-family: 'Inconsolata', monospace;
+        font-size: 13em;
+        color: #555;
+        margin-left: 2.5em;
+        z-index: 1;
+        transition: all 1.5s ease-out;
+    }
+    
+    .works-threejs-header{
+        font-size: 6.5em;
+        font-family: 'Lato', sans-serif;
+        z-index: 1;
+        margin-left: -1.4em;
+        margin-top: -1.6em;
+        transition: all 1.5s ease-out;
+    }
+    
+    .works-threejs-box{
+        width: 800px;
+        height: 600px;
+        background-color: rgb(228, 228, 228);
+        opacity: 1;
+        -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        z-index: 1;
+        margin-top: 15em;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    &:hover .works-threejs-logo {
+        margin-left: 1.5em;
+    }
+
+    &:hover .works-threejs-header {
+        margin-left: -.7em;
+    }
+
+
+}
+
+/*
+*************************
+RESPONSIVE WORKS COMPONENT
+*************************
 */
 
 
