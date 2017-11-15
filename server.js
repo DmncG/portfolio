@@ -21,13 +21,13 @@ const createApp = () => {
   app.use(bodyParser.json())
   app.use(bodyParser.urlencoded({ extended: true }))
 
-
   // static file-serving middleware
-  app.use(express.static(path.join(__dirname, '..', 'public')))
+  app.use(express.static(path.join(__dirname, '.', 'public')))
 
   // sends index.html
   app.use('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'public/index.html'))
+    console.log('dirname***', path.join(__dirname, '.', 'public/index.html'))
+    res.sendFile(path.join(__dirname, '.', 'public/index.html'))
   })
 
   // error handling endware
