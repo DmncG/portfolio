@@ -36,6 +36,8 @@ const createApp = () => {
     console.error(err.stack)
     res.status(err.status || 500).send(err.message || 'Internal server error.')
   })
+
+  app.listen(PORT, () => console.log(`Mixing it up on port ${PORT}`))
 }
 
 const startListening = () => {
