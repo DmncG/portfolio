@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "own-portfolio-website",
   "engines": {
-    "node": ">= 7.0.0"
+    "node": "8.5.0"
   },
   "main": "index.js",
   "scripts": {
