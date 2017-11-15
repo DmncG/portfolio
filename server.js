@@ -49,4 +49,3 @@ const startListening = () => {
 // if we wanted to require our app in a test spec
 
 createApp()
-startListening()
