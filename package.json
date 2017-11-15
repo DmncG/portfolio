@@ -2,6 +2,9 @@
   "name": "portfolio_website",
   "version": "1.0.0",
   "description": "own-portfolio-website",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
