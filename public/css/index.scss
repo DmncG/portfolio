@@ -1,3 +1,5 @@
+
+@import 'bourbon';
 /*
 ***************
 BODY
@@ -345,7 +347,7 @@ WORKS COMPONENT
         display: block;
         transform: translateX(150px);
         opacity: 0;
-        transition: all 1.5s ease-out
+        transition: all 1s;
     }
 
     &.active .works-header{
@@ -369,10 +371,10 @@ WORKS COMPONENT
     .works-saffire-screenshot{
         width: 750px;
         height: auto;
-        margin-left: 20em;
+        transform: translateX(20em);
         margin-top: 3em;
         z-index: 1;
-        transition: all 1.5s ease-out;
+        transition: all 1s ;
         -webkit-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
         -moz-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
         box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
@@ -395,28 +397,23 @@ WORKS COMPONENT
 .works-saffire-header{
     font-size: 6.5em;
     font-family: 'Lato', sans-serif;
-    margin-left: -1.4em;
+    transform: translateX(-1.4em);
     margin-top: -1.6em;
-    transition: all 1.5s ease-out;
+    transition: all 1s;
 
 }
 
     &:hover .works-saffire-screenshot {
-        margin-left: 17em;
+        transform: translateX(17em);
     }
 
     &:hover .works-saffire-header {
-        margin-left: -.7em;
+        transform: translateX(-.7em);
     }
 
 
 }
-
-
-
     
-    
-
 .works-meeseeks{
 
     .works-meeseeks-box{
@@ -436,30 +433,31 @@ WORKS COMPONENT
     
     .works-meeseeks-gif{
         margin-top: 3em;
-        margin-left: 30.6em;
+        transform: translateX(30.6em);
         z-index: 1;
         -webkit-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
         -moz-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
         box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
-        transition: all 1.5s ease-out;
+        transition: all 1s;
+        
     }
     
     .works-meeseeks-header{
         font-size: 6.5em;
         font-family: 'Lato', sans-serif;
         z-index: 1;
-        margin-left: -1.4em;
+        transform: translateX(-1.4em);
         margin-top: -1.6em;
-        transition: all 1.5s ease-out;
+        transition: all 1s;
     
     }
 
     &:hover .works-meeseeks-gif {
-        margin-left: 27.6em;
+        transform: translateX(27.6em);
     }
 
     &:hover .works-meeseeks-header {
-        margin-left: -.7em;
+        transform: translateX(-.7em);
     }
 
 }
@@ -472,18 +470,18 @@ WORKS COMPONENT
         font-family: 'Inconsolata', monospace;
         font-size: 13em;
         color: #555;
-        margin-left: 2.5em;
+        transform: translateX(2.5em);
         z-index: 1;
-        transition: all 1.5s ease-out;
+        transition: all 1s;
     }
     
     .works-threejs-header{
         font-size: 6.5em;
         font-family: 'Lato', sans-serif;
         z-index: 1;
-        margin-left: -1.4em;
+        transform: translateX(-1.4em);
         margin-top: -1.6em;
-        transition: all 1.5s ease-out;
+        transition: all 1s;
     }
     
     .works-threejs-box{
@@ -501,11 +499,11 @@ WORKS COMPONENT
     }
 
     &:hover .works-threejs-logo {
-        margin-left: 1.5em;
+        transform: translateX(1.5em);
     }
 
     &:hover .works-threejs-header {
-        margin-left: -.7em;
+        transform: translateX(-.7em);
     }
 
 
@@ -517,5 +515,41 @@ RESPONSIVE WORKS COMPONENT
 *************************
 */
 
+/*
+*************************
+NAVBAR COMPONENT
+*************************
+*/
 
+.navbar-floating-btn{
+position: fixed;
+right: 3em;
+top: 4em;
+z-index: 2;
+}
 
+.navbar-headers{
+
+    .navbar-test{
+        
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-name: bounceIn;
+        animation-name: bounceIn;
+        
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

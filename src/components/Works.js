@@ -55,7 +55,7 @@ class Works extends Component {
             }
           }} style={{'minHeight': '100%', width: '100%', position: 'fixed', zIndex: -1}}/>
           <div className="works-content">
-            {srcs.length &&
+            {/* srcs.length &&
                 srcs.map((source, i) => {
                   return (
                     <iframe key={i} id="ytplayer" type="text/html" width="320" height="180"
@@ -63,7 +63,7 @@ class Works extends Component {
                       frameBorder="0"></iframe>
                   )
                 })
-            }
+            */}
             <Grid>
               <Row>
                 <Col xs={12} md={1} lg={1} className="works-col-header">
