@@ -5,6 +5,9 @@ import Menu from 'material-ui-icons/Menu'
 import AppBar from 'material-ui/AppBar'
 import FloatingActionButton from 'material-ui/FloatingActionButton'
 import ArrowBack from 'material-ui-icons/ArrowBack'
+import IconMenu from 'material-ui/IconMenu'
+import MenuItem from 'material-ui/MenuItem'
+import IconButton from 'material-ui/IconButton'
 
 class Navbar extends Component {
   constructor (props) {
@@ -19,15 +22,12 @@ class Navbar extends Component {
   render () {
     return (
       <div>
-        {this.state.clicked
-          ? <FloatingActionButton className='navbar-floating-btn' onClick={() => this.setState({clicked: false})}> <ArrowBack/> </FloatingActionButton>
-          : <FloatingActionButton className='navbar-floating-btn' onClick={() => this.setState({clicked: true})}> <Menu/> </FloatingActionButton>
-        }
+        <FloatingActionButton className='navbar-floating-btn'/>
         <div className="navbar-headers">
           <NavLink className="navbar-home" to="/home">  Home  </NavLink>
           <NavLink to="/works">  Works  </NavLink>
           <NavLink to="/about">  About  </NavLink>
-          <div className="navbar-test"></div>
+          <div className="navbar-test animated fadeInRight"></div>
         </div>
       </div>
     )
