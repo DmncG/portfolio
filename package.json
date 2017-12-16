@@ -11,7 +11,7 @@
     "build": "webpack-dev-server -w",
     "postinstall": "webpack -p",
     "start": "node server.js",
-    "deploy": "git checkout -b deploy && webpack -p && git add -f public/bundle.js public/bundle.js.map && git commit --allow-empty -m 'Deploying' && git push --force heroku deploy:master && git checkout master && git branch -D deploy"
+    "deploy": "git push heroku master"
   },
   "author": "",
   "license": "ISC",
