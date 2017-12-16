@@ -34,7 +34,7 @@ const Home = props => {
             }
           }
         }
-      }} style={{'minHeight': '100%', width: '100%', position: 'absolute', zIndex: '-1'}} canvasClassName="particle-canvas"/> 
+      }} style={{'minHeight': '100%', width: '100%', position: 'absolute', zIndex: '-1'}} canvasClassName="particle-canvas"/>
       <div className="intro">
         <p id="home-p1">
           <strong>Hi! My name is Dominic.</strong>

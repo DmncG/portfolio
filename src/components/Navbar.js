@@ -8,6 +8,7 @@ import ArrowBack from 'material-ui-icons/ArrowBack'
 import IconMenu from 'material-ui/IconMenu'
 import MenuItem from 'material-ui/MenuItem'
 import IconButton from 'material-ui/IconButton'
+import $ from 'jquery'
 
 class Navbar extends Component {
   constructor (props) {
@@ -22,13 +23,11 @@ class Navbar extends Component {
   render () {
     return (
       <div>
-        <FloatingActionButton className='navbar-floating-btn'/>
-        <div className="navbar-headers">
-          <NavLink className="navbar-home" to="/home">  Home  </NavLink>
-          <NavLink to="/works">  Works  </NavLink>
-          <NavLink to="/about">  About  </NavLink>
-          <div className="navbar-test animated fadeInRight"></div>
-        </div>
+        <AppBar showMenuIconButton={false}>
+            <MenuItem primaryText={<Link className="navbar-menu-item" to="/home">  Home  </Link>} />
+            <MenuItem primaryText={<Link className="navbar-menu-item" to="/works">  Works  </Link>} />
+            <MenuItem primaryText={<Link className="navbar-menu-item" to="/about">  About  </Link>} />
+        </AppBar>
       </div>
     )
   }
