@@ -22,11 +22,11 @@ class Navbar extends Component {
 
   render () {
     return (
-      <div>
+      <div className="navbar">
         <AppBar showMenuIconButton={false}>
-            <MenuItem primaryText={<Link className="navbar-menu-item" to="/home">  Home  </Link>} />
-            <MenuItem primaryText={<Link className="navbar-menu-item" to="/works">  Works  </Link>} />
-            <MenuItem primaryText={<Link className="navbar-menu-item" to="/about">  About  </Link>} />
+          <MenuItem primaryText={<Link className="navbar-menu-item" to="/home">  Home  </Link>} />
+          <MenuItem primaryText={<Link className="navbar-menu-item" to="/works">  Works  </Link>} />
+          <MenuItem primaryText={<Link className="navbar-menu-item" to="/about">  About  </Link>} />
         </AppBar>
       </div>
     )
