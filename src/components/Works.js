@@ -92,7 +92,7 @@ class Works extends Component {
                   <div className="works-meeseeks">
                     <div className="works-meeseeks-box">
                       <a href="https://github.com/DmncG/stackathon_phaser" target="_blank">
-                        <video className="works-meeseeks-gif" width="600" height="auto" loop="true" autoPlay="true">
+                        <video className="works-meeseeks-gif" width="600" height="auto" loop="true" autoPlay="false">
                           <source src="/assets/clips/source.mp4" type="video/mp4"/>
                           Your browser doesn't support the video tag.
                         </video>
