@@ -357,8 +357,6 @@ WORKS COMPONENT
 
 }
 
-
-
 .works-threejs{
 
     .works-threejs-logo{
@@ -409,6 +407,160 @@ WORKS COMPONENT
 RESPONSIVE WORKS COMPONENT
 *************************
 */
+
+@media only screen and (max-width: 1024px) {
+   
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+}
+
+@media only screen and (max-width: 425px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+    #works-header-anim{
+
+        .works-header{
+            font-size: 7em;
+            transform: none;
+            opacity: 1;
+        }
+    }
+
+    .works-header-dash{
+        width: 4em;
+        height: .7em;
+        margin-left: 1.5em;
+        margin-top: -1.2em;
+    }
+
+    .works-saffire{
+
+        .works-saffire-screenshot{
+            width: 300px;
+            height: auto;
+            transform: none;
+            margin-top: 2em;
+            margin-left: 1em;
+            margin-right: 1em;
+            -webkit-box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+            -moz-box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+            box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+        }
+    
+        .works-saffire-box{
+        width: 325px;
+        height: 300px;
+        background-color: rgb(228, 228, 228);
+        opacity: 1;
+        -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        z-index: 1;
+        margin-top: 10em;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    
+    .works-saffire-header{
+        font-size: 4.25em;
+        font-family: 'Lato', sans-serif;
+        transform: none;
+        margin-top: -1.2em;
+        margin-left: 1.4em;
+        margin-right: 1.4em;
+    
+    }
+    
+    
+    }
+
+    .works-meeseeks{
+
+        .works-meeseeks-gif{
+            width: 300px;
+            height: auto;
+            transform: none;
+            margin-top: 2em;
+            margin-left: 1em;
+            margin-right: 1em;
+            -webkit-box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+            -moz-box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+            box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+        }
+    
+        .works-meeseeks-box{
+        width: 325px;
+        height: 300px;
+        -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        z-index: 1;
+        margin-top: 10em;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    
+    .works-meeseeks-header{
+        font-size: 3.75em;
+        font-family: 'Lato', sans-serif;
+        transform: none;
+        margin-top: -1.2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    
+    }
+    
+    
+    }
+
+    .works-threejs{
+
+        .works-threejs-logo{
+            font-family: 'Inconsolata', monospace;
+            font-size: 5.8em;
+            color: #555;
+            transform: none;
+            z-index: 1;
+            transition: all 1s;
+        }
+    
+        .works-threejs-box{
+        width: 325px;
+        height: 300px;
+        background-color: rgb(228, 228, 228);
+        opacity: 1;
+        -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        z-index: 1;
+        margin-top: 10em;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    
+    .works-threejs-header{
+        font-size: 3.75em;
+        font-family: 'Lato', sans-serif;
+        transform: none;
+        margin-top: -1.2em;
+        margin-left: 1.4em;
+        margin-right: 1.4em;
+    
+    }
+    
+    
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
+
 
 /*
 *************************
