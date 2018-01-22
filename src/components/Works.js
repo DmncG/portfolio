@@ -93,9 +93,6 @@ class Works extends Component {
                     <div className="works-meeseeks-box">
                       <a href="https://github.com/DmncG/stackathon_phaser" target="_blank">
                         <img className="works-meeseeks-gif" src="/assets/images/saffire_Screenshot.png"/>
-                          <source src="/assets/clips/source.mp4" type="video/mp4"/>
-                          Your browser doesn't support the video tag.
-                        </video>
                       </a>
                     </div>
                     <div className="works-meeseeks-header">
