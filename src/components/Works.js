@@ -92,7 +92,7 @@ class Works extends Component {
                   <div className="works-meeseeks">
                     <div className="works-meeseeks-box">
                       <a href="https://github.com/DmncG/stackathon_phaser" target="_blank">
-                        <img className="works-meeseeks-gif" src="/assets/images/saffire_Screenshot.png"/>
+                        <img className="works-meeseeks-gif" src="/assets/images/meeseeks_Screenshot.png"/>
                       </a>
                     </div>
                     <div className="works-meeseeks-header">

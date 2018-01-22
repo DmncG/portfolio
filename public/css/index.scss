@@ -327,8 +327,10 @@ WORKS COMPONENT
     }
     
     .works-meeseeks-gif{
+        width: 700px;
+        height: auto;
         margin-top: 3em;
-        transform: translateX(30.6em);
+        transform: translateX(20em);
         z-index: 1;
         -webkit-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
         -moz-box-shadow: 9px 9px 5px -1px rgba(0,0,0,0.36);
@@ -338,7 +340,7 @@ WORKS COMPONENT
     }
     
     .works-meeseeks-header{
-        font-size: 6.5em;
+        font-size: 5.5em;
         font-family: 'Lato', sans-serif;
         z-index: 1;
         transform: translateX(-1.4em);
@@ -348,7 +350,7 @@ WORKS COMPONENT
     }
 
     &:hover .works-meeseeks-gif {
-        transform: translateX(27.6em);
+        transform: translateX(17em);
     }
 
     &:hover .works-meeseeks-header {
@@ -483,8 +485,8 @@ RESPONSIVE WORKS COMPONENT
         
         transform: none;
         margin-top: -1.2em;
-        margin-left: 1.7em;
-        margin-right: 1.7em;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
     
     }
 
