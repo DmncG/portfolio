@@ -414,6 +414,118 @@ RESPONSIVE WORKS COMPONENT
 
 @media only screen and (max-width: 768px) {
 
+
+    .works-saffire{
+
+        .works-saffire-screenshot{
+            width: 600px;
+            height: auto;
+            transform: none;
+            margin-top: 2em;
+            margin-left: 3.5em;
+            margin-right: 3.5em;
+            -webkit-box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+            -moz-box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+            box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+        }
+    
+        .works-saffire-box{
+        width: 700px;
+        height: 500px;
+        -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        margin-top: 10em;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    
+    .works-saffire-header{
+        transform: none;
+        margin-top: -1.2em;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
+    
+    }
+    
+    
+    }
+
+    .works-meeseeks{
+
+        .works-meeseeks-gif{
+            width: 500px;
+            height: auto;
+            transform: none;
+            margin-top: 2em;
+            margin-left: 7em;
+            margin-right: 7em;
+            -webkit-box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+            -moz-box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+            box-shadow: 7px 6px 5px -2px rgba(0,0,0,0.36);
+        }
+    
+        .works-meeseeks-box{
+        width: 700px;
+        height: 500px;
+        -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        z-index: 1;
+        margin-top: 10em;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    
+    .works-meeseeks-header{
+        
+        transform: none;
+        margin-top: -1.2em;
+        margin-left: 1.7em;
+        margin-right: 1.7em;
+    
+    }
+    
+    
+    }
+
+    .works-threejs{
+
+        .works-threejs-logo{
+            font-family: 'Inconsolata', monospace;
+            font-size: 12em;
+            color: #555;
+            transform: none;
+            z-index: 1;
+            transition: all 1s;
+        }
+    
+        .works-threejs-box{
+        width: 700px;
+        height: 500px;
+        background-color: rgb(228, 228, 228);
+        opacity: 1;
+        -webkit-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        -moz-box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        box-shadow: 10px 9px 5px -6px rgba(0,0,0,0.36);
+        z-index: 1;
+        margin-top: 10em;
+        margin-left: .5em;
+        margin-right: .5em;
+    }
+    
+    .works-threejs-header{
+        transform: none;
+        margin-top: -1.2em;
+        margin-left: 2.2em;
+        margin-right: 2.2em;
+    
+    }
+    
+    
+    }
+    
+
     
 }
 
