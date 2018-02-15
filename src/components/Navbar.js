@@ -22,7 +22,7 @@ class Navbar extends Component {
 
   render () {
     return (
-      <div className="navbar">
+      <div className="navbar" style={{width: '100%', padding: '0'}}>
         <AppBar showMenuIconButton={false}>
           <MenuItem primaryText={<Link className="navbar-menu-item" to="/home">  Home  </Link>} />
           <MenuItem primaryText={<Link className="navbar-menu-item" to="/works">  Works  </Link>} />
