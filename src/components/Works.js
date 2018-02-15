@@ -27,7 +27,7 @@ class Works extends Component {
     //  scroll animation for projects
 
     return (
-      <Fade in={this.state.fadeIn} timeout={300}>
+      
         <div>
           <Navbar/>
           <Particles className='particles-bg' params={{
@@ -124,7 +124,7 @@ class Works extends Component {
             </Grid>
           </div>
         </div>
-      </Fade>
+      
     )
   }
 }

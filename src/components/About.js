@@ -18,7 +18,6 @@ class About extends Component {
 
   render () {
     return (
-      <Fade in={this.state.fadeIn} timeout={300}>
         <div>
           <Navbar/>
           <Particles className='particles-bg' params={{
@@ -82,7 +81,6 @@ class About extends Component {
             </Row>
           </Grid>
         </div>
-      </Fade>
     )
   }
 }
